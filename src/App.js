@@ -1,5 +1,6 @@
-import logo from "./logo.svg";
-import "./App.css";
+// import "./App.css";
+
+// import ArrayAsProps from "./components/ArrayAsProps";
 
 function App() {
   return (
@@ -38,9 +39,17 @@ function App() {
                 </button>
               </div>
             </div>
+            <div className="myContrib">
+              {/* These following JSX elements are also allowed */}
+
+              {/* 1. Any JSX element can be self closed */}
+              {/* <h1 /> */}
+              {/* <div /> */}
+            </div>
           </div>
         </div>
       </div>
+      {/* <ArrayAsProps /> */}
     </div>
   );
 }
